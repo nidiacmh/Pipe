@@ -11,4 +11,6 @@ export class AppComponent {
   personajes: string[] = ['Ironman'.'Spiderman'.'Thor','Loki','Groot'];
 
   Pi : number = Math.PI;
+
+  porcentaje: number = 0.234;
 }
