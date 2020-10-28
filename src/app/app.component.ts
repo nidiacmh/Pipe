@@ -8,5 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   nombre: string = 'Nidia Carolina';
 
-  arreglo = [1,2,3,4,5,6,7,8,9];
+  personajes: string[] = ['Ironman'.'Spiderman'.'Thor','Loki','Groot'];
+
+  Pi : number = Math.PI;
 }
