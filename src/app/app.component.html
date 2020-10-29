@@ -86,3 +86,22 @@
 
   </div>
 </div>
+
+<h3>Slice <small>slice:1:4</small></h3>
+<hr>
+<ul class="list-group">
+  <li**ngFor="let personaje of personajes | slice:1:4"
+        class="list-group-item">{{personaje}}</li>
+
+</ul>
+
+<h3>JSON</h3>
+<hr>
+<div class="row mb-5">
+  <div class="col">
+      <pre>
+        {{heroe | json}}
+      </pre>
+  </div>
+
+</div>
