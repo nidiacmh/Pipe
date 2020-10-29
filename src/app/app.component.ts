@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   nombre: string = 'Nidia Carolina';
+  nombre2: string = 'NiDIa CaroLiNA'
 
   personajes: string[] = ['Ironman'.'Spiderman'.'Thor','Loki','Groot'];
 
