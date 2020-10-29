@@ -18,6 +18,8 @@ export class AppComponent {
 
   fecha : Date = new Date();
 
+  idioma :string = 'es';
+
   valorPromesa = new Promise<string>((resolve) =>{
     setTimeout(()=>{
       resolve('llego la data');
