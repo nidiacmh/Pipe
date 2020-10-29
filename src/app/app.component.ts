@@ -16,6 +16,12 @@ export class AppComponent {
 
   salario :  number = 1234.5;
 
+  valorPromesa = new Promise<string>((resolve) =>{
+    setTimeout(()=>{
+      resolve('llego la data');
+    }, 4500);
+  });
+
   heroe= {
     nombre: 'Logan',
     clave: 'Wolverine',
