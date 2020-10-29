@@ -85,6 +85,30 @@
           <td>{{valorPromesa | async }}</td>
         </tr>
 
+        <tr>
+          <td>{{fecha}}</td>
+          <td>Date</td>
+          <td>{{fecha | date }}</td>
+        </tr>
+
+        <tr>
+          <td>{{fecha}}</td>
+          <td>Date: medium</td>
+          <td>{{fecha | date:'medium' }}</td>
+        </tr>
+
+        <tr>
+          <td>{{fecha}}</td>
+          <td>Date: short</td>
+          <td>{{fecha | date:'short' }}</td>
+        </tr>
+
+        <tr>
+          <td>{{fecha}}</td>
+          <td>Date: mmmm - dd</td>
+          <td>{{fecha | date:'MMMM - dd' }}</td>
+        </tr>
+
 
       </tbody>
 
