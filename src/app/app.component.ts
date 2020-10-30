@@ -9,7 +9,7 @@ export class AppComponent {
   nombre: string = 'Nidia Carolina';
   nombre2: string = 'NiDIa CaroLiNA'
 
-  personajes: string[] = ['Ironman'.'Spiderman'.'Thor','Loki','Groot'];
+  personajes: string[] = ['Ironman','Spiderman','Thor','Loki','Groot'];
 
   Pi : number = Math.PI;
 
@@ -18,6 +18,8 @@ export class AppComponent {
   salario :  number = 1234.5;
 
   fecha : Date = new Date();
+
+  activar : boolean = true;
 
   idioma :string = 'es';
   videoUrl: string='https://www.youtube.com/embed/df0eH9mM9nU';
